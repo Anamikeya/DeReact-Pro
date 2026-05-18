@@ -1,6 +1,6 @@
 # 🚀 Django Starter Project
 
-A clean, production-ready Django boilerplate configuration. This repository is released under the **WTFPL (Do What the Fuck You Want To Public License)**. You are free to modify, distribute, and use this code however you see fit.
+A clean, production-ready Django and react boilerplate configuration. This repository is released under the **WTFPL (Do What the Fuck You Want To Public License)**. You are free to modify, distribute, and use this code however you see fit.
 
 ---
 
@@ -70,7 +70,7 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
-Navigate to `http://127.0.0` in your browser to view the running application.
+Navigate to `http://127.0.0.1` in your browser to view the running application.
 
 ---
 
