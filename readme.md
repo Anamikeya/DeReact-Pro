@@ -12,18 +12,18 @@ You must complete the **Project Renaming** steps below **BEFORE** creating your 
 
 ## 🛠️ Project Customization (Renaming)
 
-Follow these steps to rename `dereact` to your custom project name:
+Follow these steps to rename `mingmusic` to your custom project name:
 
 ### 1. Rename the Core Directory
-Rename the inner configuration folder containing `settings.py` from `dereact` to your desired project name (e.g., `my_project`).
+Rename the inner configuration folder containing `settings.py` from `mingmusic` to your desired project name (e.g., `my_project`).
 ```text
 your-repository/
 │   manage.py
-└───dereact/   ──>   Rename this folder to: my_project/
+└───mingmusic/   ──>   Rename this folder to: my_project/
 ```
 
 ### 2. Update Configuration Files
-Open the following files in your code editor and replace every occurrence of the text `dereact` with your new project name:
+Open the following files in your code editor and replace every occurrence of the text `mingmusic` with your new project name:
 * `manage.py`
 * `[your_new_name]/settings.py`
 * `[your_new_name]/urls.py`
@@ -66,11 +66,32 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-### 5. Start the Development Server
+### 5. Start the Backend Development Server
 ```bash
 python manage.py runserver
 ```
-Navigate to `http://127.0.0.1` in your browser to view the running application.
+Navigate to `http://127.0.0.1:8000` in your browser to view the running application.
+
+---
+
+## 💻 Frontend Setup (React)
+
+Open a new terminal window or tab and navigate to the frontend directory to run the React client:
+
+### 1. Navigate to Frontend Directory
+```bash
+cd frontend
+```
+
+### 2. Install Node Modules
+```bash
+npm install
+```
+
+### 3. Start Frontend Development Server
+```bash
+npm run dev
+```
 
 ---
 
